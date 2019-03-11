@@ -25,7 +25,7 @@ $ which keytool
 
 2. configure gradle for signing and keep the key secure
 
-1) create a `keystore.properties`
+* create a `keystore.properties`
 
 ```
 storeFile=xxx
@@ -34,7 +34,7 @@ keyAlias=xxx
 keyPassword=xxx
 ```
 
-2) configure gradle
+* configure gradle
 
 ```groovy
 // Create a variable called keystorePropertiesFile, and initialize it to your
